@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: yubico-client
+Version: 1.7.0
+Summary: Python Yubico Client
+Home-page: http://github.com/Kami/python-yubico-client/
+Author: Tomaz Muraus
+Author-email: tomaz+pypi@tomaz.me
+License: BSD
+Download-URL: http://github.com/Kami/python-yubico-client/downloads/
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides: yubico_client
