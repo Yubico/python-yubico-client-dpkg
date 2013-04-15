@@ -1,4 +1,4 @@
-yubico-client (1.7.0-1) unstable; urgency=low
+python-yubico-client (1.7.0-1) unstable; urgency=low
 
   * Initial package.
 
