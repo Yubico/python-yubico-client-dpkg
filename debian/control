@@ -1,9 +1,15 @@
-Source: yubico-client
-Maintainer: Tomaz Muraus <tomaz+pypi@tomaz.me>
+Source: python-yubico-client
+Maintainer: Yubico Open Source Maintainers <ossmaint@yubico.com>
+Uploaders: Simon Josefsson <simon@yubico.com>, Klas Lindfors <klas@yubico.com>, Dain Nilsson <dain@yubico.com>
 Section: python
-Priority: optional
-Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Priority: extra
+Build-Depends: python-setuptools (>= 0.6b3),
+               python-all (>= 2.6.6-3),
+               debhelper (>= 7)
 Standards-Version: 3.9.4
+Homepage: https://github.com/Kami/python-yubico-client
+Vcs-Browser: https://github.com/Yubico/python-yubico-client-dpkg
+Vcs-Git: git://github.com/Yubico/python-yubico-client-dpkg.git
 
 Package: python-yubico-client
 Architecture: all
@@ -11,4 +17,10 @@ Depends: ${misc:Depends},
          ${python:Depends},
          python-requests (>= 0.12)
 Description: Python Yubico Client
-
+ Python class for verifying YubiKey One Time Passwords (OTPs) against a 
+ validation server based on the YubiKey validation protocol version 2.0.
+ The validation protocol is defined here: 
+ https://github.com/Yubico/yubikey-val/wiki/ValidationProtocolV20
+ You will need a Yubico API key to use this client against the YubiCloud
+ validation server, which can be acquired free of charge, here:
+ https://upgrade.yubico.com/getapikey/
