@@ -1,0 +1,14 @@
+Source: yubico-client
+Maintainer: Tomaz Muraus <tomaz+pypi@tomaz.me>
+Section: python
+Priority: optional
+Build-Depends: python-setuptools (>= 0.6b3), python-all (>= 2.6.6-3), debhelper (>= 7)
+Standards-Version: 3.9.4
+
+Package: python-yubico-client
+Architecture: all
+Depends: ${misc:Depends}, 
+         ${python:Depends},
+         python-requests (>= 0.12)
+Description: Python Yubico Client
+

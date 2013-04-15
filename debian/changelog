@@ -1,0 +1,5 @@
+yubico-client (1.7.0-1) unstable; urgency=low
+
+  * Initial package.
+
+ -- Dain Nilsson <dain@yubico.com>  Mon, 15 Apr 2013 09:36:03 +0200
